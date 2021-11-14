@@ -1,20 +1,106 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Acceuil{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+{% for flashSuccess in app.flashes('success') %}
+        <div class="alert alert-success" role="alert">{{ flashSuccess }}</div>
+    {% endfor %}
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'D:/labo/kaba-projet/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'D:/labo/kaba-projet/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
-</div>
+
+
+
+
+
+<!--header -->
+
+
+	<section>
+		<div class="container">
+			<div class="row ">
+				<div class="col-md-6 align-self-center">
+					<h1 class="title-header display-5 font-weight-bold white-text pt-5">Integer sagittis volutpat. </h1>
+					<p class="sub-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis impedit dicta incidunt veniam iure, maiores optio vitae architecto magnam mollitia enim quia ducimus adipisci dolorem, sint porro atque numquam voluptate!</p>
+				</div>
+				<div class="col-md-6"> <img src=" {{ asset('img/3847762.jpg') }}" class="img-fluid"> </div>
+			</div>
+		</div>
+	</section>
+	<div class="gradient-bg">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+			<path fill="#fff" fill-opacity="1" d="M0,288L30,282.7C60,277,120,267,180,245.3C240,224,300,192,360,197.3C420,203,480,245,540,240C600,235,660,181,720,154.7C780,128,840,128,900,154.7C960,181,1020,235,1080,224C1140,213,1200,139,1260,128C1320,117,1380,171,1410,197.3L1440,224L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+		</svg>
+	</div>
+	<section class="gradient-bg">
+		<div class="container text-center text-section ">
+			<div class="row">
+				<div class="col-md-4 mb-4"> <i aria-hidden="true" class="fas fa-dice fa-4x" style="color:Dodgerblue"></i>
+					<h4 class="my-4 font-weight-bold">Pellentesque</h4>
+					<p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat error eligendi minima adipisci molestiae assumenda? Qui nam et provident voluptatibus temporibus ad, accusamus magnam ratione velit sunt nesciunt explicabo.</p>
+				</div>
+				<div class="col-md-4 mb-4"> <i aria-hidden="true" class="fas fa-chess-king fa-4x" style="color:Dodgerblue"></i>
+					<h4 class="my-4 font-weight-bold">Sollicitudin</h4>
+					<p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat error eligendi minima adipisci molestiae assumenda? Qui nam et provident voluptatibus temporibus ad, accusamus magnam ratione velit sunt nesciunt explicabo.</p>
+				</div>
+				<div class="col-md-4 mb-4"> <i aria-hidden="true" class="fas fa-gamepad fa-4x" style="color:Dodgerblue"></i>
+					<h4 class="my-4 font-weight-bold">venenatisenenatis</h4>
+					<p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat error eligendi minima adipisci molestiae assumenda? Qui nam et provident voluptatibus temporibus ad, accusamus magnam ratione velit sunt nesciunt explicabo.</p>
+				</div>
+			</div>
+		</div>
+		<div class="gradient-bg">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path fill="#fff" fill-opacity="1" d="M0,256L30,234.7C60,213,120,171,180,144C240,117,300,107,360,96C420,85,480,75,540,90.7C600,107,660,149,720,160C780,171,840,149,900,117.3C960,85,1020,43,1080,64C1140,85,1200,171,1260,192C1320,213,1380,171,1410,149.3L1440,128L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+			</svg>
+		</div>
+	</section>
+	<!--header -->
+	<!-- layout -->
+	<main class="mt-5">
+		<div class="container">
+			<section class="text-center" id="pricing">
+				<h2 class="mb-4 font-weight-600">Lorem </h2>
+				<div class="row d-flex justify-content-center mb-4">
+					<div class="col-md-8">
+						<p class="grey-text"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis impedit dicta incidunt veniam iure, maiores optio vitae architecto magnam mollitia enim quia ducimus adipisci dolorem, sint porro atque numquam voluptate!</p>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<header>
+		<!-- layout -->
+		<main>
+			<div class="container">
+				<section class="text-center pb-5 mb-5">
+					<div class="row row-centered pos">
+						<div class="col-md-4 sm-12 ">
+							<div class="card "><img alt="dames" class="card-img-top rounded img-fluid " height="auto" src="img/dominos.png "></div>
+							<div class="card-body text-center">
+								<h4 class="card-title">Jeux de dominos</h4>
+								<p class="card-text text-center">I love quick, simple pasta dishes, and this is one of my favorite.</p><a class="btn btn-primary" href="#">Voir plus <i aria-hidden="true ml-2 fa-1x" class="fa fa-arrow-circle-right"></i></a> </div>
+						</div>
+						<div class="col-md-4 sm-12">
+							<div class="card"><img alt="des" class="card-img-top rounded img-fluid" height="auto" src="img/des.jpg"></div>
+							<div class="card-body text-center">
+								<h4 class="card-title text-center">Jeux de dés</h4>
+								<p class="card-text text-center">I love quick, simple pasta dishes, and this is one of my favorite.</p><a class="btn btn-primary" href="#">Voir plus <i aria-hidden="true ml-2 fa-1x" class="fa fa-arrow-circle-right"></i></a> </div>
+						</div>
+						<div class="col-md-4 sm-12 echec">
+							<div class="card"><img alt="echec" class="card-img-top rounded img-fluid" height="auto" src="img/echec.jpg"></div>
+							<div class="card-body text-center">
+								<h4 class="card-title text-center">Jeux d'echec</h4>
+								<p class="card-text text-center">I love quick, simple pasta dishes, and this is one of my favorite.</p><a class="btn btn-primary" href="#">Voir plus <i aria-hidden="true ml-2 fa-1x" class="fa fa-arrow-circle-right"></i></a> </div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<!-- layout -->
+	</header>
+	<hr>
+	
+
+
 {% endblock %}

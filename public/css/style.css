@@ -1,0 +1,284 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+@media(max-width: 767px) {
+ 
+	#feature-list, #resources-list, #feature, #pclass {
+		text-align: center;
+	}
+
+	.feature-widget {
+		display: none;
+		width: 100%;
+		padding: 0px;
+	}
+    .echec {
+		display: none;
+		width: 100%;
+		padding: 0px;
+	}
+
+	.footer-section {
+		padding-bottom: 0px!important;
+		padding-top: 0px!important;
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+	}
+    
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+}
+
+html, body, header, #intro {
+	height: 100%;
+}
+
+#intro {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#nav {
+	background-image: radial-gradient(circle, #5788c1, #3e75bd, #2662b8, #134eb0, #0f38a6);
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.50);
+}
+
+.logo {
+	margin-bottom: 20px;
+}
+
+#heading-text {
+	font-size: 2.8rem;
+}
+
+#description-text {
+	font-size: 1.0rem;
+}
+/* css abonnemment*/
+/* font body gen */
+.gradient-bg, .navbar {
+	background: #000428;
+  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #004e92, #000428)!important;
+  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #004e92, #000428)!important;
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+.gradient-head {
+	background: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+}
+
+.text-section {
+	color: whitesmoke;
+	list-style: none;
+	font-weight: lighter;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+#nav a {
+	color: whitesmoke;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#hr-space {
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.50);
+}
+
+#nav {
+	box-shadow: 0 5px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+	font-size: 28px;
+}
+
+.card {
+	border: brown;
+}
+
+.card-header {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.sub-title {
+	font-weight: lighter;
+	text-align: center;
+}
+
+.grey-text {
+	font-weight: lighter;
+}
+/* footer */
+#feature-list, #resources-list, #about-list {
+	list-style: none;
+	font-weight: lighter;
+	padding-left: 0px;
+	padding-top: 0px;
+}
+
+.list-f {
+	text-align: left;
+}
+
+#feature h5 {
+	color: whitesmoke;
+}
+
+h5 {
+	font-weight: 600;
+	font-size: 1.38rem;
+}
+
+.copyright {
+	font-weight: bolder!important;
+	color: rgb(255, 255, 255);
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.copyright, .title-header {
+	text-align: center;
+	align-self: center;
+	font-weight: lighter;
+}
+
+.padding-page {
+	padding-top: 10px;
+	margin-bottom: 90px;
+}
+
+.feature-widget {
+	color: whitesmoke;
+}
+
+/* Check if the screen size is at least 600px */
+@media only screen and (min-width: 600px) {
+	.lg {
+		display: block;
+	}
+}
+
+/* check if the screen size is at least 400px */
+@media only screen and (min-width: 400px) {
+	.md {
+		display: block;
+	}
+}
+
+/* check if the screen size is at least 100px */
+@media only screen and (min-width: 100px) {
+	.sm {
+		display: block;
+	}
+}
+
+@import url(https://pro.fontawesome.com/releases/v5.10.0/css/all.css);
+
+/*----- Social Links -----*/
+.social-nav {
+	padding: 0;
+	list-style: none;
+	margin: -10px 0 0 -10px;
+}
+
+.social-nav li {
+	float: left;
+	margin: 10px 0 0 10px;
+	list-style: none;
+}
+
+.social-nav a {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	line-height: 48px;
+	background: #000;
+	position: relative;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+}
+
+.social-nav a {
+	overflow: hidden;
+	font-size: 26px;
+	border-radius: 4px;
+}
+
+.social-nav a:hover {
+	background: #fff;
+	text-shadow: 0px 0px #d4d4d4, 1px 1px #d4d4d4, 2px 2px #d4d4d4, 3px 3px #d4d4d4, 4px 4px #d4d4d4, 5px 5px #d4d4d4, 6px 6px #d4d4d4, 7px 7px #d4d4d4, 8px 8px #d4d4d4, 9px 9px #d4d4d4, 10px 10px #d4d4d4, 11px 11px #d4d4d4, 12px 12px #d4d4d4, 13px 13px #d4d4d4, 14px 14px #d4d4d4, 15px 15px #d4d4d4, 16px 16px #d4d4d4, 17px 17px #d4d4d4, 18px 18px #d4d4d4, 19px 19px #d4d4d4, 20px 20px #d4d4d4, 21px 21px #d4d4d4, 22px 22px #d4d4d4, 23px 23px #d4d4d4, 24px 24px #d4d4d4, 25px 25px #d4d4d4, 26px 26px #d4d4d4, 27px 27px #d4d4d4, 28px 28px #d4d4d4, 29px 29px #d4d4d4, 30px 30px #d4d4d4;
+}
+
+.social-nav .twitter {
+	background: #00ACED;
+	text-shadow: 0px 0px #0087ba, 1px 1px #0087ba, 2px 2px #0087ba, 3px 3px #0087ba, 4px 4px #0087ba, 5px 5px #0087ba, 6px 6px #0087ba, 7px 7px #0087ba, 8px 8px #0087ba, 9px 9px #0087ba, 10px 10px #0087ba, 11px 11px #0087ba, 12px 12px #0087ba, 13px 13px #0087ba, 14px 14px #0087ba, 15px 15px #0087ba, 16px 16px #0087ba, 17px 17px #0087ba, 18px 18px #0087ba, 19px 19px #0087ba, 20px 20px #0087ba, 21px 21px #0087ba, 22px 22px #0087ba, 23px 23px #0087ba, 24px 24px #0087ba, 25px 25px #0087ba, 26px 26px #0087ba, 27px 27px #0087ba, 28px 28px #0087ba, 29px 29px #0087ba, 30px 30px #0087ba;
+}
+
+.social-nav .twitter:hover {
+	color: #00ACED;
+}
+
+.social-nav .facebook {
+	background: #3B579D;
+	text-shadow: 0px 0px #2d4278, 1px 1px #2d4278, 2px 2px #2d4278, 3px 3px #2d4278, 4px 4px #2d4278, 5px 5px #2d4278, 6px 6px #2d4278, 7px 7px #2d4278, 8px 8px #2d4278, 9px 9px #2d4278, 10px 10px #2d4278, 11px 11px #2d4278, 12px 12px #2d4278, 13px 13px #2d4278, 14px 14px #2d4278, 15px 15px #2d4278, 16px 16px #2d4278, 17px 17px #2d4278, 18px 18px #2d4278, 19px 19px #2d4278, 20px 20px #2d4278, 21px 21px #2d4278, 22px 22px #2d4278, 23px 23px #2d4278, 24px 24px #2d4278, 25px 25px #2d4278, 26px 26px #2d4278, 27px 27px #2d4278, 28px 28px #2d4278, 29px 29px #2d4278, 30px 30px #2d4278;
+}
+
+.social-nav .facebook:hover {
+	color: #3B579D;
+}
+
+.social-nav .google {
+	background: #DD4A3A;
+	text-shadow: 0px 0px #c23122, 1px 1px #c23122, 2px 2px #c23122, 3px 3px #c23122, 4px 4px #c23122, 5px 5px #c23122, 6px 6px #c23122, 7px 7px #c23122, 8px 8px #c23122, 9px 9px #c23122, 10px 10px #c23122, 11px 11px #c23122, 12px 12px #c23122, 13px 13px #c23122, 14px 14px #c23122, 15px 15px #c23122, 16px 16px #c23122, 17px 17px #c23122, 18px 18px #c23122, 19px 19px #c23122, 20px 20px #c23122, 21px 21px #c23122, 22px 22px #c23122, 23px 23px #c23122, 24px 24px #c23122, 25px 25px #c23122, 26px 26px #c23122, 27px 27px #c23122, 28px 28px #c23122, 29px 29px #c23122, 30px 30px #c23122;
+}
+
+.social-nav .google:hover {
+	color: #DD4A3A;
+}
+
+.social-nav .whatsapp {
+	background: #25D366;
+	text-shadow: 0px 0px #27ae60, 1px 1px #27ae60, 2px 2px #27ae60, 3px 3px #27ae60, 4px 4px #27ae60, 5px 5px #27ae60, 6px 6px #27ae60, 7px 7px #27ae60, 8px 8px #27ae60, 9px 9px #27ae60, 10px 10px #27ae60, 11px 11px #27ae60, 12px 12px #27ae60, 13px 13px #27ae60, 14px 14px #27ae60, 15px 15px #27ae60, 16px 16px #27ae60, 17px 17px #27ae60, 18px 18px #27ae60, 19px 19px #27ae60, 20px 20px #27ae60, 21px 21px #27ae60, 22px 22px #27ae60, 23px 23px #27ae60, 24px 24px #27ae60, 25px 25px #27ae60, 26px 26px #27ae60, 27px 27px #27ae60, 28px 28px #27ae60, 29px 29px #27ae60, 30px 30px #27ae60;
+}
+
+.social-nav .whatsapp:hover {
+	color: #25D366;
+}
+
+.darken-bg {
+	background-image: linear-gradient(to right, #000428, #004e92 );
+}
+
+/*    lajo kaba */
+button:focus {
+  outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+  width: 200px;
+}
