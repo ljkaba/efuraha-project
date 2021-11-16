@@ -8,9 +8,13 @@
 /public/bundles/
 /var/
 /vendor/
+<<<<<<< HEAD
 /src/DataFixtures/
 lj.txt
 /kaba.txt
+=======
+/src/DataFixtures/**/
+>>>>>>> crud-admin
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###

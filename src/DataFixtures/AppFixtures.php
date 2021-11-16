@@ -32,6 +32,9 @@ class AppFixtures extends Fixture
            for ($i = 0; $i < 40; $i++) {
             $user[$i] = new User();
             $user[$i]->setEmail($faker->email);
+            $user[$i]->setLastName($faker->name);
+            $user[$i]->setDescription($faker->sentence($nbWords = 6, $variableNbWords = true));
+           
             if($i=== 1)
                 $user[$i]->setRoles(["ROLE_ADMIN"]);
             else
