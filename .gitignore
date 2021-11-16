@@ -9,6 +9,8 @@
 /var/
 /vendor/
 /src/DataFixtures/
+lj.txt
+/kaba.txt
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
