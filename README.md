@@ -1,4 +1,4 @@
-[![EFURAHA-group enhanced web apps: Svelte](https://www.dropbox.com/s/58s0ndgmsrejam0/efuraha%20logo.jpg)](https://tosma2kin.com)
+[![EFURAHA-group enhanced web apps](https://www.dropbox.com/s/58s0ndgmsrejam0/efuraha%20logo.jpg)](https://tosma2kin.com)
 
 
 
